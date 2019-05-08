@@ -130,5 +130,3 @@ for (i in 1:max) {
 
 book %>% distinct(title)
 readr::write_excel_csv(book, "book_marketing.csv")
-
-r
